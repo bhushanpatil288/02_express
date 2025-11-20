@@ -1,0 +1,23 @@
+{
+  "name": "coffee-manager",
+  "version": "1.0.0",
+  "description": "a simple manager for different coffees",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev" : "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "coffee"
+  ],
+  "author": "bhushan patil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
