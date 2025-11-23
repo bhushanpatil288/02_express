@@ -1,0 +1,19 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"2.298\"}","timestamp":"2025-11-22T06:47:20.334Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"0.363\"}","timestamp":"2025-11-22T06:48:30.476Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"0.233\"}","timestamp":"2025-11-22T06:48:31.433Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"0.247\"}","timestamp":"2025-11-22T06:48:32.206Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"0.268\"}","timestamp":"2025-11-22T06:48:32.906Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A post requirest is made to add a tea","timestamp":"2025-11-22T06:50:54.515Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"4.515\"}","timestamp":"2025-11-22T06:50:54.521Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A post requirest is made to add a tea","timestamp":"2025-11-22T06:50:55.370Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"1.136\"}","timestamp":"2025-11-22T06:50:55.372Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A POST request is made to add a tea","timestamp":"2025-11-22T06:53:19.371Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"4.879\"}","timestamp":"2025-11-22T06:53:19.378Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A POST request is made to add a tea","timestamp":"2025-11-22T06:53:26.399Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"0.981\"}","timestamp":"2025-11-22T06:53:26.400Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A POST request is made to add a tea","timestamp":"2025-11-22T06:53:26.802Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"0.716\"}","timestamp":"2025-11-22T06:53:26.804Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A POST request is made to add a tea","timestamp":"2025-11-22T06:53:27.215Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/coffees\",\"status\":\"201\",\"responseTime\":\"0.590\"}","timestamp":"2025-11-22T06:53:27.216Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"A DELETE request is made to remove tea","timestamp":"2025-11-22T06:53:36.457Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"DELETE\",\"url\":\"/coffees/2\",\"status\":\"204\",\"responseTime\":\"1.817\"}","timestamp":"2025-11-22T06:53:36.459Z"}

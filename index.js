@@ -1,15 +1,36 @@
 import 'dotenv/config'
 import express from 'express';
+import logger from './logger.js';
+import morgan from 'morgan';
 
 const app = express();
 const port = process.env.PORT || 8080;
 app.use(express.json())
+
+const morganFormat = ':method :url :status :response-time ms'
+
+app.use(
+  morgan(morganFormat, {
+    stream: {
+      write: (message) => {
+        const logObject = {
+          method: message.split(" ")[0],
+          url: message.split(" ")[1],
+          status: message.split(" ")[2],
+          responseTime: message.split(" ")[3],
+        };
+        logger.info(JSON.stringify(logObject));
+      },
+    },
+  })
+);
 
 let coffeeData = [];
 let nextId = 1;
 
 // add coffee
 app.post('/coffees', (req, res)=>{
+  logger.info("A POST request is made to add a coffee")
   const {name, price} = req.body;
   const newCoffee = {id: nextId++, name, price};
   coffeeData.push(newCoffee);
@@ -48,6 +69,7 @@ app.put('/coffees/:id', (req, res)=>{
 
 // delete coffee
 app.delete('/coffees/:id', (req, res)=>{
+  logger.warn("A DELETE request is made to remove coffee")
   const coffeeId = parseInt(req.params.id);
   // coffeeData = coffeeData.filter(coffee=> coffee.id !== coffeeId);
   const index = coffeeData.findIndex(coffee => coffee.id === coffeeId);
